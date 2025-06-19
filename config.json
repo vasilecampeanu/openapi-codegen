@@ -1,0 +1,32 @@
+{
+    "endpoints": [
+        {
+            "url": "http://tm-next.cbwg.local:5000/data/TM.Next.Authority/swagger/docs/v1",
+            "paths": [
+                "/authority/GetAppConfig",
+                "/authority/GetAuthToken",
+                "/authority/GetLoginConfig",
+                "/authority/GetUnreadNews",
+                "/authority/Logout",
+                "/authority/ResetPasswordExternalSystem",
+                "/authority/SetNewsRead",
+                "/externalauthentication/GetExternalToken",
+                "/url/GetExternalCatalogUrl",
+                "/user/v3/GetUserContext"
+            ]
+        }
+    ],
+    "options": {
+        "useStrictTypes": true,
+        "generateComments": true,
+        "generateJsDoc": true,
+        "indentation": 4,
+        "cleanOutputDir": true,
+        "filesToKeep": [
+            "TMCancelToken.ts",
+            "GetStylesRequest",
+            "GetThemeRequest",
+            "config.json"
+        ]
+    }
+}
